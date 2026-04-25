@@ -1,1 +1,1 @@
-# zastosowania-sieci-neuronowych
+# llm-openrouter-app
