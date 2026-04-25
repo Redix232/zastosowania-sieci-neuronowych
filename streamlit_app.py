@@ -7,7 +7,7 @@ st.title("Gemini chatbot app")
 
 api_key = st.secrets["API_KEY"]
 base_url = st.secrets["BASE_URL"]
-selected_model = "gemini-2.0-flash"
+selected_model = "gemini-2.5-flash"
 
 if "messages" not in st.session_state:
     st.session_state["messages"] = []
