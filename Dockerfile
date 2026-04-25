@@ -8,7 +8,6 @@ WORKDIR /app
 
 ENV BASE_URL="https://openrouter.ai/api/v1"
 COPY streamlit_app.py .
-COPY src/ ./src
 COPY requirements.txt .
 
 RUN pip3 install -r requirements.txt
