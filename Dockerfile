@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y build-essential curl \
 
 WORKDIR /app
 
-ENV BASE_URL="https://openrouter.ai/api/v1"
+ENV BASE_URL="https://generativelanguage.googleapis.com/v1beta/openai/"
 COPY streamlit_app.py .
 COPY requirements.txt .
 
